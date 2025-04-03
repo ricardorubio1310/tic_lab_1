@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Genera un numero aleatorio entre 1 y 100
+numero_secreto=$(($RANDOM % 100 + 1))
+intentos=0
+
+echo "Adivina el numero secreto (entre 1 y 100)"
+
+while true; do
+ read -p "Introduce tu intento: " intento
+ ((intentos++))
+
+ if (( intento == numero_secreto )); then
+   echo "Correcto adivinaste en $intentos intentos."
+   break
+ elif ((intento < numero_secreto )); then
+   echo "Demasiado bajo. intenta de nuevo"
+ else 
+   echo " demasiado alto"
+fi
+done
