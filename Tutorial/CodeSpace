@@ -1,0 +1,18 @@
+#  GitHub Codespaces
+GitHub Codespaces es un entorno de desarrollo en la nube basado en VS Code.  
+Permite escribir, ejecutar y depurar código sin instalar nada en tu PC.
+
+# Acceso
+1. Inicia sesión en GitHub.  
+2. Ve al repo y haz clic en "Code" > "Codespaces" > "Create codespace on main".  
+3. También puedes usar VS Code con la extensión "GitHub Codespaces".  
+4. O acceder desde la terminal con:
+
+   gh codespace create --repo <usuario/repo>  
+   gh codespace code
+
+# Características
+- Entorno preconfigurado en contenedores.  
+- Funciona en navegador o VS Code.  
+- Sincronizado con GitHub.  
+
