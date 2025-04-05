@@ -1,2 +1,25 @@
-ls > listar archivos
-mkdir > crear directorios
+ls > listar archivos  
+cd > cambiar de directorio  
+pwd > mostrar el directorio actual  
+mkdir > crear directorios  
+touch > crear un archivo vacío  
+cp > copiar archivos o carpetas  
+mv > mover o renombrar archivos o carpetas  
+rm > eliminar archivos  
+rm -r > eliminar carpetas de forma recursiva  
+cat > mostrar contenido de un archivo  
+nano > editor de texto en terminal  
+vim > editor de texto avanzado en terminal  
+chmod 755 > dar permisos de lectura, escritura y ejecución al dueño, y lectura y ejecución al grupo y otros  
+chown > cambiar el propietario de un archivo  
+sudo > ejecutar comandos como superusuario  
+apt install > instalar programas (distribuciones basadas en Debian)  
+yum install > instalar programas (distribuciones basadas en RedHat)  
+ps > ver procesos activos  
+top > ver procesos en tiempo real  
+kill > terminar un proceso  
+df -h > ver el uso del disco  
+du -sh > ver el tamaño de un archivo o carpeta  
+man > mostrar el manual de un comando  
+echo > mostrar texto o escribir en archivos  
+whoami > mostrar el usuario actual
